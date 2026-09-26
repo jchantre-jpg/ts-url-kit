@@ -1,0 +1,18 @@
+{
+  "name": "ts-url-kit",
+  "version": "1.0.0",
+  "description": "Utilidades TypeScript para URLs y query strings",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/demo.js",
+    "demo": "tsc && node dist/demo.js"
+  },
+  "keywords": ["typescript", "url", "querystring", "utilities"],
+  "author": "Juliana Chantre Astudillo",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.7.2"
+  }
+}
